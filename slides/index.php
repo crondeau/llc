@@ -125,7 +125,7 @@
       <article>
         <h3>Code + Database = <span class="red padbottom">&hearts;</span></h3>
          <div>
-          <img src="http://cl.ly/C1dr/Screen%20Shot%202011-11-21%20at%2010.07.51%20PM.png" alt="">
+          <img src="images/code-db.png" alt="">
           <p>The database holds our data and the code defines how and when the data is printed to the page. The two work together to <span class="red">output HTML</span>.</p>
           <p><span class="red">/wp-admin</span> and <span class="red">/wp-includes</span> holds the engine of WordPress - we don't touch it. <span class="red">/wp-content</span> holds our specific content like themes, plugins and image uploads.</p>
         </div>
@@ -154,7 +154,7 @@
             <p><strong>Step 4</strong>: Rename <code>wp-config-sample.php</code> to <code>wp-config.php</code> and open it</p>
             <p><strong>Step 5</strong>: Open in your text editor</p>
             <p><strong>Step 6</strong>: Set the below.</p>
-            <img src="http://cl.ly/C1Tn/Screen%20Shot%202011-11-21%20at%2010.26.16%20PM.png" alt="">
+            <img src="images/wp-config.png" alt="">
             <p class="small"> <span class="red">Windows Users: Leave password blank.</span></p>
             <p><strong>Step 6</strong>: Surf to <a href="http://localhost/wordpress" target=_blank>http://localhost/wordpress</a> or <a href="http://localhost:8888/wordpress" target=_blank>http://localhost:8888/wordpress</a> in Chrome (or your favorite browser like Firefox or IE10) and install!</p>
           </div>
@@ -162,22 +162,22 @@
 
       <article>
 
-		  <img src="http://cl.ly/image/1k3v273o1x0J/Image%202015-01-26%20at%208.59.22%20AM.png" style="margin: 0 auto; display: block;" alt="">
+		  <img src="images/wp-install1.png" style="margin: 0 auto; display: block;" alt="">
       </article>
       <article>
-        <img src="http://cl.ly/image/191A1e1b1q1U/Image%202015-01-26%20at%209.03.16%20AM.png" alt="">
+        <img src="images/wp-install2.png" alt="">
       </article>
 
       <article>
         <h3>Adding Content</h3>
         <p>Create some <em>dummy content</em> for your website so we can work with the site.</p>
         <p>Create <strong>7 posts</strong>, fill them with some dummy content and make sure to add a few <strong>tags/categories</strong> to each.</p>
-        <img src="http://cl.ly/image/0r2a0Z2q3s0G/Screenshot%202015-01-26%2009.14.45.png" alt="">
+        <img src="images/add-posts.png" alt="">
         <p>See next slide for more content additions.</p>
       </article>
       <article>
         <p>Create <strong>3 pages</strong> called Blog, Contact and Home.</p>
-        <img src="http://cl.ly/image/1R1U1C3R0P3D/Screenshot%202015-01-26%2009.15.00.png" alt="">
+        <img src="images/add-pages.png" alt="">
         <p>The boring parts are almost done, I promise! Have some fun with any of these Lorem Ipsum dummy text generators:</p>
         <p><a href="http://meettheipsums.com/" target="_blank">meettheipsums.com</a></p>
       </article>
@@ -186,15 +186,14 @@
           <h3>Customizing Settings</h3>
           <p>Set the Blog page and Home page accordingly and switch # of posts to 5.
           <span class="small">Found under Settings->Reading</span></p>
-          <img src="http://cl.ly/image/331A2Y0c0b2h/Image%202015-01-26%20at%209.30.55%20AM.png" alt="">
-         <!--  <p><img src="http://cl.ly/BuMH/Screen%20Shot%202011-11-17%20at%203.05.41%20PM.png" alt=""></p>
-          <p>2. switch # of posts to 5 <img src="http://wes.io/MLov/content" alt=""> </p> -->
+          <img src="images/reading-settings.png" alt="">
+
       </article>
 
       <article>
         <p><strong>Remember Permalinks?</strong> Lets turn on pretty permalinks</p>
         <p class="small">Settings->permalinks</p>
-        <p><img src="http://wes.io/MLtT/content" alt=""></p>
+        <p><img src="images/permalinks.png" alt=""></p>
       </article>
 
 
