@@ -125,7 +125,7 @@
       <article>
         <h3>Code + Database = <span class="red padbottom">&hearts;</span></h3>
          <div>
-          <img src="images/code-db.png" alt="">
+          <img src="assets/images/code-database.png" alt="">
           <p>The database holds our data and the code defines how and when the data is printed to the page. The two work together to <span class="red">output HTML</span>.</p>
           <p><span class="red">/wp-admin</span> and <span class="red">/wp-includes</span> holds the engine of WordPress - we don't touch it. <span class="red">/wp-content</span> holds our specific content like themes, plugins and image uploads.</p>
         </div>
@@ -154,7 +154,7 @@
             <p><strong>Step 4</strong>: Rename <code>wp-config-sample.php</code> to <code>wp-config.php</code> and open it</p>
             <p><strong>Step 5</strong>: Open in your text editor</p>
             <p><strong>Step 6</strong>: Set the below.</p>
-            <img src="images/wp-config.png" alt="">
+            <img src="assets/images/wp-config-db.png" alt="">
             <p class="small"> <span class="red">Windows Users: Leave password blank.</span></p>
             <p><strong>Step 6</strong>: Surf to <a href="http://localhost/wordpress" target=_blank>http://localhost/wordpress</a> or <a href="http://localhost:8888/wordpress" target=_blank>http://localhost:8888/wordpress</a> in Chrome (or your favorite browser like Firefox or IE10) and install!</p>
           </div>
@@ -162,22 +162,22 @@
 
       <article>
 
-		  <img src="images/wp-install1.png" style="margin: 0 auto; display: block;" alt="">
+		  <img src="assets/images/setup-language.png" style="margin: 0 auto; display: block;" alt="">
       </article>
       <article>
-        <img src="images/wp-install2.png" alt="">
+        <img src="assets/images/setup-install.png" alt="">
       </article>
 
       <article>
         <h3>Adding Content</h3>
         <p>Create some <em>dummy content</em> for your website so we can work with the site.</p>
         <p>Create <strong>7 posts</strong>, fill them with some dummy content and make sure to add a few <strong>tags/categories</strong> to each.</p>
-        <img src="images/add-posts.png" alt="">
+        <img src="assets/images/add-content-posts.png" alt="">
         <p>See next slide for more content additions.</p>
       </article>
       <article>
         <p>Create <strong>3 pages</strong> called Blog, Contact and Home.</p>
-        <img src="images/add-pages.png" alt="">
+        <img src="assets/images/add-content-pages.png" alt="">
         <p>The boring parts are almost done, I promise! Have some fun with any of these Lorem Ipsum dummy text generators:</p>
         <p><a href="http://meettheipsums.com/" target="_blank">meettheipsums.com</a></p>
       </article>
@@ -186,14 +186,14 @@
           <h3>Customizing Settings</h3>
           <p>Set the Blog page and Home page accordingly and switch # of posts to 5.
           <span class="small">Found under Settings->Reading</span></p>
-          <img src="images/reading-settings.png" alt="">
+          <img src="assets/images/custom-settings.png" alt="">
 
       </article>
 
       <article>
         <p><strong>Remember Permalinks?</strong> Lets turn on pretty permalinks</p>
         <p class="small">Settings->permalinks</p>
-        <p><img src="images/permalinks.png" alt=""></p>
+        <p><img src="assets/images/permalinks.png" alt=""></p>
       </article>
 
 
@@ -228,7 +228,7 @@
         <p>The default theme is a little confusing, lets install a simpler one we can build upon!</p>
         <p>All themes live in <code>/wp-content/themes</code></p>
         <p>In your <strong>learnerfiles</strong> folder, move (drag+drop) the <strong>ladies-learning-code</strong> folder into your <code>/wp-content/themes</code> folder</p>
-        <p><img src="http://cl.ly/C0CJ/Screen%20Shot%202011-11-21%20at%2011.02.09%20PM.png" alt=""></p>
+        <p><img src="assets/images/llc-theme-folder.png" alt=""></p>
         <p>Under <strong>Appearance &rarr; Themes</strong>, you will now see our Ladies Learning Code theme. Activate it.</p>
 
       </article>
@@ -258,7 +258,7 @@
       </article>
 
       <article>
-        <img src="http://cl.ly/Buih/Screen%20Shot%202011-11-17%20at%204.38.53%20PM.png" alt="">
+        <img src="assets/images/theme-page-layout.png" alt="">
       </article>
 
       <article>
@@ -327,7 +327,7 @@
         <h3 class="padBottom">Adding a picture of you to the sidebar!</h3>
         <div>
           <p>Open <code>sidebar.php</code> and look for these comments:</p>
-          <img src="http://cl.ly/C04f/Screen%20Shot%202011-11-22%20at%2012.21.27%20AM.png" alt="">
+          <img src="assets/images/sidebar-pic-code.png" alt="">
           <p>In our theme folder, we have an image called <code>portrait.png</code> in our <code>i</code> folder. Let's use that one to embed into the sidebar. If you wish you use your own image, simply put your image in the <code>i</code> folder.</p>
         </div>
       </article>
@@ -598,7 +598,7 @@ div.parent div.child { ... }
       </article>
 
       <article>
-        <p><img src="http://cl.ly/C20B/Screen%20Shot%202011-11-22%20at%205.58.51%20PM.png" alt=""></p>
+        <p><img src="assets/images/loop-layout-example.png" alt=""></p>
       </article>
 
       <article>
@@ -960,7 +960,7 @@ view. <img src="http://cl.ly/C2Lt/Screen%20Shot%202011-11-22%20at%2010
       </article>
       <article>
         <div>
-          <p><strong>Step 1:</strong> From the dashbaord, edit your "Home" page. Write a few lines about yourself and upload a photo.</p>
+          <p><strong>Step 1:</strong> From the dashboard, edit your "Home" page. Write a few lines about yourself and upload a photo.</p>
           <p><strong>Step 2:</strong> Remember our <span class="red">page-home.php</span>? Open it up again and delete "Coming Soon..."</p>
           <p><strong>Step 3:</strong> We're now going to write our own loop so we can get the page's content.</p>
           <pre>
@@ -1071,18 +1071,18 @@ view. <img src="http://cl.ly/C2Lt/Screen%20Shot%202011-11-22%20at%2010
       </article>
 
 
-      <article>
+      <!-- <article>
         <h3>What else with WordPress?</h3>
         <p>Custom Post types</p>
         <p>Advanced backend interfaces</p>
         <p>Plugin Development is an whole ‘nother world</p>
         <p>WordCamps and Meetups - The WordPress community is amazing</p>
-      </article>
+      </article> -->
 
       <article>
         <h3>Making WordPress Live</h3>
         <p>Migrating WordPress, or hosting it so everyone can see it, requires a few steps to make it live.</p>
-        <p>First, you need host. There are tons of great, affordable ones. I recommend using <a href="http://wpengine.com/">WPEngine</a>.</p>
+        <p>First, you need host. There are tons of great, affordable ones. I recommend using, <a href="http://bluehost.com">Bluehost</a>, <a href="http://dreamhost.com">Dreamhost</a> or <a href="http://wpengine.com/">WPEngine</a>.</p>
         <p>Second, you will need to follow the migration guide. Here's a video on how to do this: <a href="https://www.youtube.com/watch?v=gk6_lW9INos" target=_blank>youtube.com/watch?v=gk6_lW9INos</a></p>
       </article>
 
